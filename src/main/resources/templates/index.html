@@ -1,10 +1,21 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Todo Spring Home Page</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-</head>
+<head th:replace="partial/header::header"></head>
 <body>
-    <p>Hello World !</p>
+<div class="ui page grid">
+    <div class="row" style="margin-top: 100px;">
+        <div class="column">
+            <div class="ui header">Spring Todo</div>
+            <div class="ui divider"></div>
+        </div>
+    </div>
+    <div class="four wide column">
+        <div th:replace="partial/menu::menu"></div>
+    </div>
+    <div class="twelve wide column">
+        <h1>Welcome .... !</h1>
+        <h4>Todo Application based on Spring-boot Framework</h4>
+    </div>
+</div>
 </body>
 </html>

@@ -13,17 +13,17 @@ public class TodoListController {
 
     @RequestMapping("/")
     public String todos (){
-        return "todos";
+        return "todo/todos";
     }
 
     @RequestMapping("/add")
     public String todoAdd (){
-        return "todoAdd";
+        return "todo/todoAdd";
     }
 
     @RequestMapping("/view")
     public String todoView(@RequestParam String id){
-        return "todoView";
+        return "todo/todoViewEdit";
     }
 
 }

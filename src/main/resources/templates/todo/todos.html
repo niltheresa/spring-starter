@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head th:replace="partial/header::header"></head>
+<body>
+<div class="ui page grid">
+    <div class="row" style="margin-top: 100px;">
+        <div class="column">
+            <div class="ui header">Spring Todo</div>
+            <div class="ui divider"></div>
+        </div>
+    </div>
+    <div class="four wide column">
+        <div th:replace="partial/menu::menu"></div>
+    </div>
+    <div class="twelve wide column">
+        <h4 class="ui header">List Todo</h4>
+        <div class="ui divider"></div>
+    </div>
+</div>
+</body>
+</html>

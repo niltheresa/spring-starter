@@ -1,2 +1,4 @@
 /home/ubuntu/Desktop/Spring/todo/src/main/java/com/todo/TodoApplication.java
 /home/ubuntu/Desktop/Spring/todo/src/main/java/com/todo/rest/TodoListController.java
+/home/ubuntu/Desktop/Spring/todo/src/main/java/com/todo/resource/TodoRepository.java
+/home/ubuntu/Desktop/Spring/todo/src/main/java/com/todo/model/Todo.java
